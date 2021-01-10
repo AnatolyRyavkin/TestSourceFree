@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 	func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 
-		let viewController = ViewController(text: "hello")
+		let viewController = ViewController(text: "hello world")
 		viewController.view.backgroundColor = UIColor.lightGray
 		let navigationController = UINavigationController(rootViewController: viewController)
 		if let windowScene = scene as? UIWindowScene {
